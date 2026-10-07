@@ -3,8 +3,10 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Academics from "@/components/Academics";
 import Admissions from "@/components/Admissions";
-import Disclosure from "@/components/Disclosure";
 import Footer from "@/components/Footer";
+import InquiryForm from "@/components/Inquiryform";
+import WhyChoose from "@/components/Whychoose";
+import Importance from "@/components/Inportance";
  
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
         <Hero />
         <About />
         <Academics />
+        <Importance />
+        <WhyChoose />
+        <InquiryForm />
         <Admissions />
-        <Disclosure />
       </main>
       <Footer />
     </>

@@ -26,6 +26,7 @@ const menus: MenuDef[] = [
   { label: "Life at PEMS", items: [
     { label: "School life", href: "/life/school-life", note: "Events, clubs and celebrations" },
     { label: "Sports", href: "/life/sports", note: "Teams, grounds and meets" },
+    { label: "Our gallery", href: "/life/gallery", note: "Photos and videos from school" },
   ]},
   { label: "Contact", items: [
     { label: "FAQ", href: "/contact/faq", note: "Answers for parents" },
@@ -84,7 +85,8 @@ export default function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3.5">
           {/* TODO: swap the monogram for the school logo */}
           <a href="/" className="flex items-center gap-3">
-            <span className="grid h-11 w-11 place-items-center rounded-full bg-forest font-serif text-2xl font-bold text-marigold">P</span>
+            {/* <span className="grid h-11 w-11 place-items-center rounded-full bg-forest font-serif text-2xl font-bold text-marigold">P</span> */}
+            <img src="/logo.jpg" alt="Panchvati English Medium School logo" width={44} height={44} className="h-11 w-11 rounded-full object-cover" />
             <span className="font-serif text-xl font-bold leading-none text-forest md:text-2xl">
               Panchvati English Medium School
               <span className="mt-1 block font-sans text-[11px] font-medium tracking-wide text-board/60">Igatpuri</span>
